@@ -12,7 +12,7 @@ import java.util.Date;
 import java.util.List;
 
 @RestController
-@RequestMapping("/tasks")
+@RequestMapping("/v1/tasks")
 public class TaskController {
     List<Task> tasks = new ArrayList<>();
     int nextTask = 0;
